@@ -1,0 +1,16 @@
+D:\A-SNarayan\Development\Coding Standards\New\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.exe.config
+D:\A-SNarayan\Development\Coding Standards\New\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.exe
+D:\A-SNarayan\Development\Coding Standards\New\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.pdb
+D:\A-SNarayan\Development\Coding Standards\New\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.exe
+D:\A-SNarayan\Development\Coding Standards\New\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.pdb
+D:\A-SNarayan\Development\Coding Standards\New\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.csprojResolveAssemblyReference.cache
+\\192.168.50.220\Freshers2019-Trainees\A-TrainingMaterials\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.exe.config
+\\192.168.50.220\Freshers2019-Trainees\A-TrainingMaterials\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.exe
+\\192.168.50.220\Freshers2019-Trainees\A-TrainingMaterials\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.pdb
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.exe.config
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.exe
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\bin\Release\CSharpCodingStandard.pdb
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.csprojAssemblyReference.cache
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.csproj.CoreCompileInputs.cache
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.exe
+\\192.168.50.220\Freshers2020-Trainees\C#\Best Practices\CSharpCodingStandard\CSharpCodingStandard\obj\Release\CSharpCodingStandard.pdb

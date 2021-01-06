@@ -1,0 +1,17 @@
+E:\ITFundaCorp\TUTORIALS\C#\A-WhileTraining\SampleBO\bin\Debug\SampleBO.dll
+E:\ITFundaCorp\TUTORIALS\C#\A-WhileTraining\SampleBO\bin\Debug\SampleBO.pdb
+E:\ITFundaCorp\TUTORIALS\C#\A-WhileTraining\SampleBO\obj\Debug\SampleBO.dll
+E:\ITFundaCorp\TUTORIALS\C#\A-WhileTraining\SampleBO\obj\Debug\SampleBO.pdb
+E:\ITFundaCorp\TUTORIALS\C#\A-WhileTraining\SampleBO\obj\Debug\SampleBO.csprojResolveAssemblyReference.cache
+D:\A-SNarayan\Sheo\Tutorials\C#\CSharp\SampleBO\bin\Debug\SampleBO.dll
+D:\A-SNarayan\Sheo\Tutorials\C#\CSharp\SampleBO\bin\Debug\SampleBO.pdb
+D:\A-SNarayan\Sheo\Tutorials\C#\CSharp\SampleBO\obj\Debug\SampleBO.csprojAssemblyReference.cache
+D:\A-SNarayan\Sheo\Tutorials\C#\CSharp\SampleBO\obj\Debug\SampleBO.csproj.CoreCompileInputs.cache
+D:\A-SNarayan\Sheo\Tutorials\C#\CSharp\SampleBO\obj\Debug\SampleBO.dll
+D:\A-SNarayan\Sheo\Tutorials\C#\CSharp\SampleBO\obj\Debug\SampleBO.pdb
+\\192.168.50.220\Freshers2020-Trainees\C#\CSharp\SampleBO\bin\Debug\SampleBO.dll
+\\192.168.50.220\Freshers2020-Trainees\C#\CSharp\SampleBO\bin\Debug\SampleBO.pdb
+\\192.168.50.220\Freshers2020-Trainees\C#\CSharp\SampleBO\obj\Debug\SampleBO.csprojAssemblyReference.cache
+\\192.168.50.220\Freshers2020-Trainees\C#\CSharp\SampleBO\obj\Debug\SampleBO.csproj.CoreCompileInputs.cache
+\\192.168.50.220\Freshers2020-Trainees\C#\CSharp\SampleBO\obj\Debug\SampleBO.dll
+\\192.168.50.220\Freshers2020-Trainees\C#\CSharp\SampleBO\obj\Debug\SampleBO.pdb

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoDatabaseModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="DemoDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AspNet_SqlCacheTablesForChangeNotification" EntityType="DemoDatabaseModel.AspNet_SqlCacheTablesForChangeNotification" />
+    <EntitySet Name="Files" EntityType="DemoDatabaseModel.File" />
+    <EntitySet Name="GlobalLanguages" EntityType="DemoDatabaseModel.GlobalLanguage" />
+    <EntitySet Name="Menus" EntityType="DemoDatabaseModel.Menu" />
+    <EntitySet Name="PersonalDetails" EntityType="DemoDatabaseModel.PersonalDetail" />
+  </EntityContainer>
+  <EntityType Name="AspNet_SqlCacheTablesForChangeNotification">
+    <Key>
+      <PropertyRef Name="tableName" />
+    </Key>
+    <Property Name="tableName" Type="String" Nullable="false" MaxLength="450" Unicode="true" FixedLength="false" />
+    <Property Name="notificationCreated" Type="DateTime" Nullable="false" />
+    <Property Name="changeId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="AutoId" />
+    </Key>
+    <Property Name="AutoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="FileContent" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="PersonalDetailsId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="GlobalLanguage">
+    <Key>
+      <PropertyRef Name="AutoId" />
+      <PropertyRef Name="Title" />
+    </Key>
+    <Property Name="AutoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="MenuId" />
+    </Key>
+    <Property Name="MenuId" Type="Int32" Nullable="false" />
+    <Property Name="MenuName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MenuDescription" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ParentMenuId" Type="Int32" />
+    <Property Name="MenuUrl" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PersonalDetail">
+    <Key>
+      <PropertyRef Name="AutoId" />
+    </Key>
+    <Property Name="AutoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+</Schema>

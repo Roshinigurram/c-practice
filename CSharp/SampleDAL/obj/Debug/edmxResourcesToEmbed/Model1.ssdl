@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoDatabaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DemoDatabaseModelStoreContainer">
+    <EntitySet Name="AspNet_SqlCacheTablesForChangeNotification" EntityType="DemoDatabaseModel.Store.AspNet_SqlCacheTablesForChangeNotification" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Files" EntityType="DemoDatabaseModel.Store.Files" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GlobalLanguage" EntityType="DemoDatabaseModel.Store.GlobalLanguage" store:Type="Tables" store:Schema="dbo" store:Name="GlobalLanguage">
+      <DefiningQuery>SELECT 
+      [GlobalLanguage].[AutoId] AS [AutoId], 
+      [GlobalLanguage].[Title] AS [Title], 
+      [GlobalLanguage].[Description] AS [Description]
+      FROM [dbo].[GlobalLanguage] AS [GlobalLanguage]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Menus" EntityType="DemoDatabaseModel.Store.Menus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PersonalDetail" EntityType="DemoDatabaseModel.Store.PersonalDetail" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="AspNet_SqlCacheTablesForChangeNotification">
+    <Key>
+      <PropertyRef Name="tableName" />
+    </Key>
+    <Property Name="tableName" Type="nvarchar" Nullable="false" MaxLength="450" />
+    <Property Name="notificationCreated" Type="datetime" Nullable="false" />
+    <Property Name="changeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Files">
+    <Key>
+      <PropertyRef Name="AutoId" />
+    </Key>
+    <Property Name="AutoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FileName" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="FileContent" Type="image" Nullable="false" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="PersonalDetailsId" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'DemoDatabase.dbo.GlobalLanguage' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="GlobalLanguage">
+    <Key>
+      <PropertyRef Name="AutoId" />
+      <PropertyRef Name="Title" />
+    </Key>
+    <Property Name="AutoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Description" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Menus">
+    <Key>
+      <PropertyRef Name="MenuId" />
+    </Key>
+    <Property Name="MenuId" Type="int" Nullable="false" />
+    <Property Name="MenuName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="MenuDescription" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="ParentMenuId" Type="int" />
+    <Property Name="MenuUrl" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="PersonalDetail">
+    <Key>
+      <PropertyRef Name="AutoId" />
+    </Key>
+    <Property Name="AutoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Active" Type="bit" />
+  </EntityType>
+</Schema>
